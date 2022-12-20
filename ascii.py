@@ -32,7 +32,7 @@ def remap(x, oldMin, oldMax, newMin, newMax):
     return result
 
 
-def render(img: np.ndarray, gradient: str, debug: str) -> str:
+def render(img: np.ndarray, gradient: str) -> str:
     art = ""
     for num_x, x in enumerate(img):
         for num_y, y in enumerate(x):
@@ -47,7 +47,3 @@ def render(img: np.ndarray, gradient: str, debug: str) -> str:
 
     return art
 
-
-def get_html_template() -> str:
-    with open("html_template.html", "r") as f:
-        return f.read()
