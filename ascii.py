@@ -43,8 +43,6 @@ def render(img: np.ndarray, gradient: str, debug: str) -> str:
             to_symbol = round(remap(gr, 0, 255, 0, len(gradient)))
             art += gradient[to_symbol - 1]
 
-        if num_x == 0:
-            art += str(debug)
         art += "\n"
 
     return art
