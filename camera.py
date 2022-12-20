@@ -19,7 +19,7 @@ def main():
 
         resolution = (round(y * aspect / symbol_aspect), y)
         frame = cv2.resize(frame, resolution, interpolation=cv2.INTER_AREA)
-        art = render(frame, gradient, f"FPS: {1.0 / (time.time() - start_time)}")
+        art = render(frame, gradient)
 
         sys.stdout.write(art)
 
