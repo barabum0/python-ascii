@@ -5,7 +5,7 @@
 ## How to use:
 1. Install dependencies
 ```bash
-pip install opencv-python
+pip install opencv-python click
 ```
 
 ### It's done! Here is the commands to run:
