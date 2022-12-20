@@ -12,4 +12,18 @@ pip install opencv-python click
 Camera:
 ```bash
 python camera.py
+
+python camera.py --help
+```
+
+Images:
+```bash
+python image2ascii.py --input <image>
+
+python image2ascii.py --help
+```
+
+## Example images:
+```
+
 ```
