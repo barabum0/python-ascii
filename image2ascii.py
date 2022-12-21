@@ -1,6 +1,6 @@
 import click as click
 import cv2, time, os, sys
-from ascii import render, get_html_template
+from ascii import render
 
 
 @click.command()

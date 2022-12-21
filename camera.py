@@ -1,6 +1,6 @@
 import click
 import cv2, time, os, sys
-from ascii import render, get_html_template, remap
+from ascii import render, remap
 
 
 @click.command()
@@ -13,13 +13,16 @@ def main(input: int, height: int, gradient: str, font_aspect: str):
 
     font_aspect = tuple(map(int, font_aspect.split('/')))
 
+    heightChange = (height == 0)
+
+
     while True:
         ret, frame = cam.read()
 
         frame_h, frame_w, _ = frame.shape
         aspect = frame_w / frame_h
 
-        if height == 0:
+        if heightChange == True:
             height = os.get_terminal_size().lines
 
         symbol_aspect = font_aspect[0] / font_aspect[1]
