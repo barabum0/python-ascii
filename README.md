@@ -26,11 +26,11 @@ python image2ascii.py --help
 
 ## Example images:
 <p float="left">
-  <img src="https://github.com/barabum0/python-ascii/blob/master/github/pes_orig.png?raw=true?raw=true" alt="Cam GIF preview" width="200"/>
-  <img src="https://github.com/barabum0/python-ascii/blob/master/github/pes.png?raw=true" alt="Cam GIF preview" width="200"/>
+  <img src="https://github.com/barabum0/python-ascii/blob/master/github/pes_orig.png?raw=true?raw=true" alt="dog preview" width="200"/>
+  <img src="https://github.com/barabum0/python-ascii/blob/master/github/pes.png?raw=true" alt="dog" width="200"/>
 </p>
 
 <p float="left">
-  <img src="https://github.com/barabum0/python-ascii/blob/master/github/eda_orig.png?raw=true?raw=true" alt="Cam GIF preview" width="200"/>
-  <img src="https://github.com/barabum0/python-ascii/blob/master/github/eda.png?raw=true" alt="Cam GIF preview" width="200"/>
+  <img src="https://github.com/barabum0/python-ascii/blob/master/github/eda_orig.png?raw=true?raw=true" alt="food preview" width="200"/>
+  <img src="https://github.com/barabum0/python-ascii/blob/master/github/eda.png?raw=true" alt="food" width="200"/>
 </p>
